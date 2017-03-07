@@ -67,9 +67,6 @@ cross-claim or counterclaim.
 
 #import <RNAnalytics/RNAnalytics.h>
 
-#import "RNCrashes.h"
-
-#import "RNAnalytics.h"
 
 
 #import "RCTBundleURLProvider.h"
@@ -82,8 +79,6 @@ cross-claim or counterclaim.
   NSURL *jsCodeLocation;
 
   [RNCrashes register];  // Initialize Mobile Center crashes
-
-  [RNCrashes registerWithCrashDelegate: [[RNCrashesDelegateAlwaysSend alloc] init]];  // Initialize Mobile Center crashes
 
   [RNAnalytics registerWithInitiallyEnabled:true];  // Initialize Mobile Center analytics
 
