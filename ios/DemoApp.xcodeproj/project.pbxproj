@@ -22,11 +22,11 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		3BB78E273B502868B9DA9F32 /* libPods-DemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B7E29EC7CCF197D0E2A97F /* libPods-DemoApp.a */; };
-		54D9F1933BA34C7A9FED4FA4 /* libRNCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFAC7204A1F499289B728FC /* libRNCrashes.a */; };
+		78587755F1134ED19760317D /* libRNAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DAFBC62179487AB5FF6229 /* libRNAnalytics.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		B278CC78759F429AA706C5E2 /* MobileCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9701DC280B894743BEB7379B /* MobileCenter-Config.plist */; };
-		BF4ED8C6D33F40AA96AE8D90 /* libRNAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F82E15D21E4D59A33B1FBF /* libRNAnalytics.a */; };
+		ACE2EDDFA342E5742A440740 /* libPods-DemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF170E7A70C783B30E7DC20C /* libPods-DemoApp.a */; };
+		B8267956E80248C2B487EED9 /* libRNCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDED4F0968F3457D8096640C /* libRNCrashes.a */; };
+		D5ABB3E4DB624570AC54DC3F /* MobileCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92347F73AF804C4C999A468F /* MobileCenter-Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,65 +107,65 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
-		BA4648351E6E3193005706C2 /* PBXContainerItemProxy */ = {
+		BA8F02571E6E3901006CDBF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D2A283A1D9B042B00D4039D;
 			remoteInfo = "RCTImage-tvOS";
 		};
-		BA4648391E6E3193005706C2 /* PBXContainerItemProxy */ = {
+		BA8F025B1E6E3901006CDBF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D2A28471D9B043800D4039D;
 			remoteInfo = "RCTLinking-tvOS";
 		};
-		BA46483D1E6E3193005706C2 /* PBXContainerItemProxy */ = {
+		BA8F025F1E6E3901006CDBF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D2A28541D9B044C00D4039D;
 			remoteInfo = "RCTNetwork-tvOS";
 		};
-		BA4648411E6E3193005706C2 /* PBXContainerItemProxy */ = {
+		BA8F02631E6E3901006CDBF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D2A28611D9B046600D4039D;
 			remoteInfo = "RCTSettings-tvOS";
 		};
-		BA4648451E6E3193005706C2 /* PBXContainerItemProxy */ = {
+		BA8F02671E6E3901006CDBF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D2A287B1D9B048500D4039D;
 			remoteInfo = "RCTText-tvOS";
 		};
-		BA46484A1E6E3193005706C2 /* PBXContainerItemProxy */ = {
+		BA8F026C1E6E3901006CDBF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D2A28881D9B049200D4039D;
 			remoteInfo = "RCTWebSocket-tvOS";
 		};
-		BA46484E1E6E3193005706C2 /* PBXContainerItemProxy */ = {
+		BA8F02701E6E3901006CDBF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
 			remoteInfo = "React-tvOS";
 		};
-		BA4648511E6E3193005706C2 /* PBXContainerItemProxy */ = {
+		BA8F02731E6E3901006CDBF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4CA8F701AE4A408984FC57BE /* RNAnalytics.xcodeproj */;
+			containerPortal = 9159BFEB57034868AD482ED0 /* RNAnalytics.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 548694001D8384E600E6685A;
 			remoteInfo = RNAnalytics;
 		};
-		BA46487E1E6E319F005706C2 /* PBXContainerItemProxy */ = {
+		BA8F02761E6E3901006CDBF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 07B22C0007F6487FA949B38A /* RNCrashes.xcodeproj */;
+			containerPortal = EAFA7FDD268A4407B012526D /* RNCrashes.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 5419C2701D824AA700DDF3A1;
 			remoteInfo = RNCrashes;
@@ -182,8 +182,6 @@
 		00E356EE1AD99517003FC87E /* DemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* DemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppTests.m; sourceTree = "<group>"; };
-		04B7E29EC7CCF197D0E2A97F /* libPods-DemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		07B22C0007F6487FA949B38A /* RNCrashes.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNCrashes.xcodeproj; path = "../node_modules/mobile-center-crashes/ios/RNCrashes.xcodeproj"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,14 +192,16 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DemoApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DemoApp/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		4CA8F701AE4A408984FC57BE /* RNAnalytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNAnalytics.xcodeproj; path = "../node_modules/mobile-center-analytics/ios/RNAnalytics.xcodeproj"; sourceTree = "<group>"; };
-		4DFAC7204A1F499289B728FC /* libRNCrashes.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCrashes.a; sourceTree = "<group>"; };
+		1843CE6C07FE25B9AEE0E599 /* Pods-DemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2156257DB95D7F40403664E1 /* Pods-DemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.release.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		8488E523E48F018073CC2873 /* Pods-DemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.release.xcconfig"; sourceTree = "<group>"; };
-		9701DC280B894743BEB7379B /* MobileCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "MobileCenter-Config.plist"; path = "DemoApp/MobileCenter-Config.plist"; sourceTree = "<group>"; };
-		A3F82E15D21E4D59A33B1FBF /* libRNAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNAnalytics.a; sourceTree = "<group>"; };
-		DFE5F5454734A170FA447654 /* Pods-DemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9159BFEB57034868AD482ED0 /* RNAnalytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNAnalytics.xcodeproj; path = "../node_modules/mobile-center-analytics/ios/RNAnalytics.xcodeproj"; sourceTree = "<group>"; };
+		92347F73AF804C4C999A468F /* MobileCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "MobileCenter-Config.plist"; path = "DemoApp/MobileCenter-Config.plist"; sourceTree = "<group>"; };
+		A8DAFBC62179487AB5FF6229 /* libRNAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNAnalytics.a; sourceTree = "<group>"; };
+		CF170E7A70C783B30E7DC20C /* libPods-DemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFA7FDD268A4407B012526D /* RNCrashes.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNCrashes.xcodeproj; path = "../node_modules/mobile-center-crashes/ios/RNCrashes.xcodeproj"; sourceTree = "<group>"; };
+		EDED4F0968F3457D8096640C /* libRNCrashes.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCrashes.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,9 +227,9 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				BF4ED8C6D33F40AA96AE8D90 /* libRNAnalytics.a in Frameworks */,
-				3BB78E273B502868B9DA9F32 /* libPods-DemoApp.a in Frameworks */,
-				54D9F1933BA34C7A9FED4FA4 /* libRNCrashes.a in Frameworks */,
+				78587755F1134ED19760317D /* libRNAnalytics.a in Frameworks */,
+				ACE2EDDFA342E5742A440740 /* libPods-DemoApp.a in Frameworks */,
+				B8267956E80248C2B487EED9 /* libRNCrashes.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				00C302C01ABCB91800DB3ED1 /* libRCTImage.a */,
-				BA4648361E6E3193005706C2 /* libRCTImage-tvOS.a */,
+				BA8F02581E6E3901006CDBF3 /* libRCTImage-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -265,7 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */,
-				BA46483E1E6E3193005706C2 /* libRCTNetwork-tvOS.a */,
+				BA8F02601E6E3901006CDBF3 /* libRCTNetwork-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -295,28 +295,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0868A9B6A21FFA811D3FFEEA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				04B7E29EC7CCF197D0E2A97F /* libPods-DemoApp.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		11F5C12BFC95881B0584EC2A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DFE5F5454734A170FA447654 /* Pods-DemoApp.debug.xcconfig */,
-				8488E523E48F018073CC2873 /* Pods-DemoApp.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				139105C11AF99BAD00B5F7CC /* libRCTSettings.a */,
-				BA4648421E6E3193005706C2 /* libRCTSettings-tvOS.a */,
+				BA8F02641E6E3901006CDBF3 /* libRCTSettings-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -325,7 +308,7 @@
 			isa = PBXGroup;
 			children = (
 				139FDEF41B06529B00C62182 /* libRCTWebSocket.a */,
-				BA46484B1E6E3193005706C2 /* libRCTWebSocket-tvOS.a */,
+				BA8F026D1E6E3901006CDBF3 /* libRCTWebSocket-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -348,16 +331,24 @@
 			isa = PBXGroup;
 			children = (
 				146834041AC3E56700842450 /* libReact.a */,
-				BA46484F1E6E3193005706C2 /* libReact-tvOS.a */,
+				BA8F02711E6E3901006CDBF3 /* libReact-tvOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		58D5AF1230D47D9D811B1931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF170E7A70C783B30E7DC20C /* libPods-DemoApp.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				78C398B91ACF4ADC00677621 /* libRCTLinking.a */,
-				BA46483A1E6E3193005706C2 /* libRCTLinking-tvOS.a */,
+				BA8F025C1E6E3901006CDBF3 /* libRCTLinking-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -375,8 +366,8 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				4CA8F701AE4A408984FC57BE /* RNAnalytics.xcodeproj */,
-				07B22C0007F6487FA949B38A /* RNCrashes.xcodeproj */,
+				9159BFEB57034868AD482ED0 /* RNAnalytics.xcodeproj */,
+				EAFA7FDD268A4407B012526D /* RNCrashes.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -385,7 +376,7 @@
 			isa = PBXGroup;
 			children = (
 				832341B51AAA6A8300B99B32 /* libRCTText.a */,
-				BA4648461E6E3193005706C2 /* libRCTText-tvOS.a */,
+				BA8F02681E6E3901006CDBF3 /* libRCTText-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -397,9 +388,9 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* DemoAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
-				9701DC280B894743BEB7379B /* MobileCenter-Config.plist */,
-				11F5C12BFC95881B0584EC2A /* Pods */,
-				0868A9B6A21FFA811D3FFEEA /* Frameworks */,
+				92347F73AF804C4C999A468F /* MobileCenter-Config.plist */,
+				CD51CE7C690A1F10E6D369B5 /* Pods */,
+				58D5AF1230D47D9D811B1931 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -414,20 +405,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA46482F1E6E3193005706C2 /* Products */ = {
+		BA8F024F1E6E3901006CDBF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA4648521E6E3193005706C2 /* libRNAnalytics.a */,
+				BA8F02741E6E3901006CDBF3 /* libRNAnalytics.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA4648691E6E319F005706C2 /* Products */ = {
+		BA8F02511E6E3901006CDBF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA46487F1E6E319F005706C2 /* libRNCrashes.a */,
+				BA8F02771E6E3901006CDBF3 /* libRNCrashes.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CD51CE7C690A1F10E6D369B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1843CE6C07FE25B9AEE0E599 /* Pods-DemoApp.debug.xcconfig */,
+				2156257DB95D7F40403664E1 /* Pods-DemoApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -455,13 +455,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DemoApp" */;
 			buildPhases = (
-				4D893582865BACD53554DE66 /* [CP] Check Pods Manifest.lock */,
+				A76D37C58C241212D428E17F /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				622FDD167DF6884D26A38DDC /* [CP] Embed Pods Frameworks */,
-				12FC91A49D24B3D51F1229DE /* [CP] Copy Pods Resources */,
+				0877577BA7FF6A63630EF2D3 /* [CP] Embed Pods Frameworks */,
+				2EE0023C42A6034BC3455D63 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -484,6 +484,10 @@
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 9KBH5RKYEW;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -540,12 +544,12 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = BA46482F1E6E3193005706C2 /* Products */;
-					ProjectRef = 4CA8F701AE4A408984FC57BE /* RNAnalytics.xcodeproj */;
+					ProductGroup = BA8F024F1E6E3901006CDBF3 /* Products */;
+					ProjectRef = 9159BFEB57034868AD482ED0 /* RNAnalytics.xcodeproj */;
 				},
 				{
-					ProductGroup = BA4648691E6E319F005706C2 /* Products */;
-					ProjectRef = 07B22C0007F6487FA949B38A /* RNCrashes.xcodeproj */;
+					ProductGroup = BA8F02511E6E3901006CDBF3 /* Products */;
+					ProjectRef = EAFA7FDD268A4407B012526D /* RNCrashes.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -627,67 +631,67 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		BA4648361E6E3193005706C2 /* libRCTImage-tvOS.a */ = {
+		BA8F02581E6E3901006CDBF3 /* libRCTImage-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libRCTImage-tvOS.a";
-			remoteRef = BA4648351E6E3193005706C2 /* PBXContainerItemProxy */;
+			remoteRef = BA8F02571E6E3901006CDBF3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		BA46483A1E6E3193005706C2 /* libRCTLinking-tvOS.a */ = {
+		BA8F025C1E6E3901006CDBF3 /* libRCTLinking-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libRCTLinking-tvOS.a";
-			remoteRef = BA4648391E6E3193005706C2 /* PBXContainerItemProxy */;
+			remoteRef = BA8F025B1E6E3901006CDBF3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		BA46483E1E6E3193005706C2 /* libRCTNetwork-tvOS.a */ = {
+		BA8F02601E6E3901006CDBF3 /* libRCTNetwork-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libRCTNetwork-tvOS.a";
-			remoteRef = BA46483D1E6E3193005706C2 /* PBXContainerItemProxy */;
+			remoteRef = BA8F025F1E6E3901006CDBF3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		BA4648421E6E3193005706C2 /* libRCTSettings-tvOS.a */ = {
+		BA8F02641E6E3901006CDBF3 /* libRCTSettings-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libRCTSettings-tvOS.a";
-			remoteRef = BA4648411E6E3193005706C2 /* PBXContainerItemProxy */;
+			remoteRef = BA8F02631E6E3901006CDBF3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		BA4648461E6E3193005706C2 /* libRCTText-tvOS.a */ = {
+		BA8F02681E6E3901006CDBF3 /* libRCTText-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libRCTText-tvOS.a";
-			remoteRef = BA4648451E6E3193005706C2 /* PBXContainerItemProxy */;
+			remoteRef = BA8F02671E6E3901006CDBF3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		BA46484B1E6E3193005706C2 /* libRCTWebSocket-tvOS.a */ = {
+		BA8F026D1E6E3901006CDBF3 /* libRCTWebSocket-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libRCTWebSocket-tvOS.a";
-			remoteRef = BA46484A1E6E3193005706C2 /* PBXContainerItemProxy */;
+			remoteRef = BA8F026C1E6E3901006CDBF3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		BA46484F1E6E3193005706C2 /* libReact-tvOS.a */ = {
+		BA8F02711E6E3901006CDBF3 /* libReact-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libReact-tvOS.a";
-			remoteRef = BA46484E1E6E3193005706C2 /* PBXContainerItemProxy */;
+			remoteRef = BA8F02701E6E3901006CDBF3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		BA4648521E6E3193005706C2 /* libRNAnalytics.a */ = {
+		BA8F02741E6E3901006CDBF3 /* libRNAnalytics.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRNAnalytics.a;
-			remoteRef = BA4648511E6E3193005706C2 /* PBXContainerItemProxy */;
+			remoteRef = BA8F02731E6E3901006CDBF3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		BA46487F1E6E319F005706C2 /* libRNCrashes.a */ = {
+		BA8F02771E6E3901006CDBF3 /* libRNCrashes.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRNCrashes.a;
-			remoteRef = BA46487E1E6E319F005706C2 /* PBXContainerItemProxy */;
+			remoteRef = BA8F02761E6E3901006CDBF3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -706,7 +710,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				B278CC78759F429AA706C5E2 /* MobileCenter-Config.plist in Resources */,
+				D5ABB3E4DB624570AC54DC3F /* MobileCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,7 +731,22 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
 		};
-		12FC91A49D24B3D51F1229DE /* [CP] Copy Pods Resources */ = {
+		0877577BA7FF6A63630EF2D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EE0023C42A6034BC3455D63 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -742,7 +761,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4D893582865BACD53554DE66 /* [CP] Check Pods Manifest.lock */ = {
+		A76D37C58C241212D428E17F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -755,21 +774,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		622FDD167DF6884D26A38DDC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -856,11 +860,13 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFE5F5454734A170FA447654 /* Pods-DemoApp.debug.xcconfig */;
+			baseConfigurationReference = 1843CE6C07FE25B9AEE0E599 /* Pods-DemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 9KBH5RKYEW;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -876,16 +882,20 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = DemoApp;
+				PROVISIONING_PROFILE = "c381f3d3-9dc4-450f-a775-c8da1e4809de";
+				PROVISIONING_PROFILE_SPECIFIER = "Microsoft Dogfood Provisioning Profile";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8488E523E48F018073CC2873 /* Pods-DemoApp.release.xcconfig */;
+			baseConfigurationReference = 2156257DB95D7F40403664E1 /* Pods-DemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9KBH5RKYEW;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -901,6 +911,8 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = DemoApp;
+				PROVISIONING_PROFILE = "c381f3d3-9dc4-450f-a775-c8da1e4809de";
+				PROVISIONING_PROFILE_SPECIFIER = "Microsoft Dogfood Provisioning Profile";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
