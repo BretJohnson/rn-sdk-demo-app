@@ -7,8 +7,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "mobile-center-analytics": "^0.3.0",
-    "mobile-center-crashes": "^0.3.0",
+    "mobile-center-analytics": "^0.4.0",
+    "mobile-center-crashes": "^0.4.0",
     "react": "15.3.2",
     "react-native": "0.37.0"
   },

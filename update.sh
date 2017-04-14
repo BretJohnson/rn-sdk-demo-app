@@ -3,13 +3,13 @@
 echo 'Updating demo app source...'
 cp -R ../mobile-center-sdk-react-native/DemoApp/ .
 
-echo 'Installing node modules...'
+echo 'Installing node modules, with yarn...'
 rm -rf node_modules
-npm install
+yarn install
 
 echo 'Installing our npm packages...'
-npm install mobile-center-analytics --save
-npm install mobile-center-crashes --save
+yarn add mobile-center-analytics
+yarn add mobile-center-crashes
 
 echo 'Removing Pods...'
 rm -rf ios/Pods
