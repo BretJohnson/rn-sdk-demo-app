@@ -63,6 +63,8 @@ cross-claim or counterclaim.
 */
 
 #import "AppDelegate.h"
+#import <RNPush/RNPush.h>
+
 #import <RNCrashes/RNCrashes.h>
 
 #import <RNAnalytics/RNAnalytics.h>
@@ -77,6 +79,8 @@ cross-claim or counterclaim.
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   NSURL *jsCodeLocation;
+
+  [RNPush registerAndEnable];  // Initialize Mobile Center push
 
   [RNCrashes register];  // Initialize Mobile Center crashes
 

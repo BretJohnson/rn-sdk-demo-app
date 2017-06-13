@@ -3371,15 +3371,15 @@ mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-mobile-center-analytics@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/mobile-center-analytics/-/mobile-center-analytics-0.4.0.tgz#cee4174db9d812021c64c270172a22c297bc5e1c"
+mobile-center-analytics@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/mobile-center-analytics/-/mobile-center-analytics-0.5.0.tgz#cc04b6671dd3f375db271b99c1c01ec452a01c6d"
   dependencies:
     mobile-center-link-scripts "0.1.6"
 
-mobile-center-crashes@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/mobile-center-crashes/-/mobile-center-crashes-0.4.0.tgz#3a91c117316929ec45c60306caa6886a131cfedf"
+mobile-center-crashes@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/mobile-center-crashes/-/mobile-center-crashes-0.5.0.tgz#5f4ed8d562bd5b607fe431575cd1b3af6793770b"
   dependencies:
     mobile-center-link-scripts "0.1.6"
 
@@ -3394,6 +3394,12 @@ mobile-center-link-scripts@0.1.6:
     plist "1.2.0"
     which "^1.2.11"
     xcode "^0.8.9"
+
+mobile-center-push@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/mobile-center-push/-/mobile-center-push-0.5.0.tgz#84404bb7860ede62135ba3e0b8e92809d906258e"
+  dependencies:
+    mobile-center-link-scripts "0.1.6"
 
 module-deps@^3.9.1:
   version "3.9.1"
