@@ -21,12 +21,12 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		2611A03DF1F3A89769860EAC /* libPods-DemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8347B5B761EF8664A7879DD /* libPods-DemoApp.a */; };
-		505255CD4D134011AB7751E5 /* MobileCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = E823FB4993594CFCA831BC4D /* MobileCenter-Config.plist */; };
+		4F3248DBBD884EA693077C33 /* libRNAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3544863D34D46BA8FB1039D /* libRNAnalytics.a */; };
+		7CDA67514F4CF95C65EC96FE /* libPods-DemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37377B56BBAE0769865C5F24 /* libPods-DemoApp.a */; };
 		832341BD1AAA6AB300B99B32 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		D7E508217FD24F0E9CF87F06 /* libRNAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CCCEC3B7814BC09F3AD7AA /* libRNAnalytics.a */; };
-		A9861C64F8BF471C9FAD4C77 /* libRNCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D39871FBA11344F58D8A2256 /* libRNCrashes.a */; };
-		544C1EE79B694D118ADD76DE /* libRNPush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7A892F9E30414887E7ADF3 /* libRNPush.a */; };
+		C96A2BAAB1264F98AE55BAAE /* MobileCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 033AEF76826247ABB2ED5870 /* MobileCenter-Config.plist */; };
+		AE22708D1680407F83808042 /* libRNCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EEA77A1B304093B720267E /* libRNCrashes.a */; };
+		122B271EFD5F4940A62EDE7B /* libRNPush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BA99D4A8B74C2687755A6E /* libRNPush.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +119,8 @@
 		00E356EE1AD99517003FC87E /* DemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* DemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppTests.m; sourceTree = "<group>"; };
+		033AEF76826247ABB2ED5870 /* MobileCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "MobileCenter-Config.plist"; path = "DemoApp/MobileCenter-Config.plist"; sourceTree = "<group>"; };
+		07CB09281BD8E54D393C3584 /* Pods-DemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.release.xcconfig"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,18 +131,16 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DemoApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DemoApp/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		42F2A55F947F459993CB7CD2 /* RNAnalytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNAnalytics.xcodeproj; path = "../node_modules/mobile-center-analytics/ios/RNAnalytics.xcodeproj"; sourceTree = "<group>"; };
-		50DEE87FE5402F7AEBC289ED /* Pods-DemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.debug.xcconfig"; sourceTree = "<group>"; };
-		57CCCEC3B7814BC09F3AD7AA /* libRNAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libRNAnalytics.a; path = libRNAnalytics.a; sourceTree = "<group>"; };
+		1774FD72C9054F17B2C215F7 /* RNAnalytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNAnalytics.xcodeproj; path = "../node_modules/mobile-center-analytics/ios/RNAnalytics.xcodeproj"; sourceTree = "<group>"; };
+		37377B56BBAE0769865C5F24 /* libPods-DemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		A8347B5B761EF8664A7879DD /* libPods-DemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0010AFA6EBBE69B906D7191 /* Pods-DemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.release.xcconfig"; sourceTree = "<group>"; };
-		E823FB4993594CFCA831BC4D /* MobileCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "MobileCenter-Config.plist"; path = "DemoApp/MobileCenter-Config.plist"; sourceTree = "<group>"; };
-		54634756C4034BBEBF52D7EE /* RNCrashes.xcodeproj */ = {isa = PBXFileReference; name = "RNCrashes.xcodeproj"; path = "../node_modules/mobile-center-crashes/ios/RNCrashes.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		D39871FBA11344F58D8A2256 /* libRNCrashes.a */ = {isa = PBXFileReference; name = "libRNCrashes.a"; path = "libRNCrashes.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		C7D3742E7D3A4BE69FC5A1CF /* RNPush.xcodeproj */ = {isa = PBXFileReference; name = "RNPush.xcodeproj"; path = "../node_modules/mobile-center-push/ios/RNPush.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		DD7A892F9E30414887E7ADF3 /* libRNPush.a */ = {isa = PBXFileReference; name = "libRNPush.a"; path = "libRNPush.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		A6A93AD22F0A4320FFD60E9B /* Pods-DemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D3544863D34D46BA8FB1039D /* libRNAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libRNAnalytics.a; path = libRNAnalytics.a; sourceTree = "<group>"; };
+		EABF22B8B7A04E75B735F63C /* RNCrashes.xcodeproj */ = {isa = PBXFileReference; name = "RNCrashes.xcodeproj"; path = "../node_modules/mobile-center-crashes/ios/RNCrashes.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		C0EEA77A1B304093B720267E /* libRNCrashes.a */ = {isa = PBXFileReference; name = "libRNCrashes.a"; path = "libRNCrashes.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		FE8D181674704ABEBC934EF1 /* RNPush.xcodeproj */ = {isa = PBXFileReference; name = "RNPush.xcodeproj"; path = "../node_modules/mobile-center-push/ios/RNPush.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		16BA99D4A8B74C2687755A6E /* libRNPush.a */ = {isa = PBXFileReference; name = "libRNPush.a"; path = "libRNPush.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,10 +166,10 @@
 				832341BD1AAA6AB300B99B32 /* ReferenceProxy in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* ReferenceProxy in Frameworks */,
 				139FDEF61B0652A700C62182 /* ReferenceProxy in Frameworks */,
-				D7E508217FD24F0E9CF87F06 /* libRNAnalytics.a in Frameworks */,
-				2611A03DF1F3A89769860EAC /* libPods-DemoApp.a in Frameworks */,
-				A9861C64F8BF471C9FAD4C77 /* libRNCrashes.a in Frameworks */,
-				544C1EE79B694D118ADD76DE /* libRNPush.a in Frameworks */,
+				4F3248DBBD884EA693077C33 /* libRNAnalytics.a in Frameworks */,
+				7CDA67514F4CF95C65EC96FE /* libPods-DemoApp.a in Frameworks */,
+				AE22708D1680407F83808042 /* libRNCrashes.a in Frameworks */,
+				122B271EFD5F4940A62EDE7B /* libRNPush.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +271,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		592345EE74F5592BEE3E5FB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37377B56BBAE0769865C5F24 /* libPods-DemoApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,9 +300,9 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				42F2A55F947F459993CB7CD2 /* RNAnalytics.xcodeproj */,
-				54634756C4034BBEBF52D7EE /* RNCrashes.xcodeproj */,
-				C7D3742E7D3A4BE69FC5A1CF /* RNPush.xcodeproj */,
+				1774FD72C9054F17B2C215F7 /* RNAnalytics.xcodeproj */,
+				EABF22B8B7A04E75B735F63C /* RNCrashes.xcodeproj */,
+				FE8D181674704ABEBC934EF1 /* RNPush.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -314,9 +322,9 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* DemoAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
-				E823FB4993594CFCA831BC4D /* MobileCenter-Config.plist */,
-				F461FCE0993492E2B0B072C7 /* Pods */,
-				BACE25CC2F7C0C7CC19A25F6 /* Frameworks */,
+				033AEF76826247ABB2ED5870 /* MobileCenter-Config.plist */,
+				E20BB1477203A97ABD88E5B8 /* Pods */,
+				592345EE74F5592BEE3E5FB7 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -331,19 +339,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BACE25CC2F7C0C7CC19A25F6 /* Frameworks */ = {
+		E20BB1477203A97ABD88E5B8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A8347B5B761EF8664A7879DD /* libPods-DemoApp.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F461FCE0993492E2B0B072C7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				50DEE87FE5402F7AEBC289ED /* Pods-DemoApp.debug.xcconfig */,
-				C0010AFA6EBBE69B906D7191 /* Pods-DemoApp.release.xcconfig */,
+				A6A93AD22F0A4320FFD60E9B /* Pods-DemoApp.debug.xcconfig */,
+				07CB09281BD8E54D393C3584 /* Pods-DemoApp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -373,13 +373,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DemoApp" */;
 			buildPhases = (
-				E0221DBD3B26600E692E8B71 /* [CP] Check Pods Manifest.lock */,
+				12992E9284684117DF86C590 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				60ACA4BCC9C2B2F5437734F4 /* [CP] Embed Pods Frameworks */,
-				5DDF5A961460790FF17C94BA /* [CP] Copy Pods Resources */,
+				C7426964FA9D6AE1CEBDF6E7 /* [CP] Embed Pods Frameworks */,
+				00CCCE29223217A6F1ECDED8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -553,13 +553,28 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				505255CD4D134011AB7751E5 /* MobileCenter-Config.plist in Resources */,
+				C96A2BAAB1264F98AE55BAAE /* MobileCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		00CCCE29223217A6F1ECDED8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -575,37 +590,7 @@
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
 			showEnvVarsInLog = 1;
 		};
-		5DDF5A961460790FF17C94BA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		60ACA4BCC9C2B2F5437734F4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E0221DBD3B26600E692E8B71 /* [CP] Check Pods Manifest.lock */ = {
+		12992E9284684117DF86C590 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -618,6 +603,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7426964FA9D6AE1CEBDF6E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -706,7 +706,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50DEE87FE5402F7AEBC289ED /* Pods-DemoApp.debug.xcconfig */;
+			baseConfigurationReference = A6A93AD22F0A4320FFD60E9B /* Pods-DemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -733,7 +733,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0010AFA6EBBE69B906D7191 /* Pods-DemoApp.release.xcconfig */;
+			baseConfigurationReference = 07CB09281BD8E54D393C3584 /* Pods-DemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
