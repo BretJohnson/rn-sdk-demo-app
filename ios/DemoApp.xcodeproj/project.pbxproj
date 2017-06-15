@@ -925,7 +925,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.azure.mobile.reactnative.demoapp;
 				PRODUCT_NAME = DemoApp;
-				PROVISIONING_PROFILE = "0cae5604-b4ef-4191-924d-877fc40c0d2e";
+				PROVISIONING_PROFILE = "a3ce360f-9f31-4a4e-9250-0b365a52b129";
 				PROVISIONING_PROFILE_SPECIFIER = "React Native SDK DemoApp Ad Hoc";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -957,7 +957,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.azure.mobile.reactnative.demoapp;
 				PRODUCT_NAME = DemoApp;
-				PROVISIONING_PROFILE = "0cae5604-b4ef-4191-924d-877fc40c0d2e";
+				PROVISIONING_PROFILE = "a3ce360f-9f31-4a4e-9250-0b365a52b129";
 				PROVISIONING_PROFILE_SPECIFIER = "React Native SDK DemoApp Ad Hoc";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
