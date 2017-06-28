@@ -1,10 +1,12 @@
 #!/bin/bash
 
+echo 'Removing previous demo app source...'
+rm -rf *.js js ios android package.json yarn.lock node_modules
+
 echo 'Updating demo app source...'
 cp -R ../mobile-center-sdk-react-native/DemoApp/ .
 
 echo 'Installing node modules, with yarn...'
-rm -rf node_modules
 yarn install
 
 echo 'Installing our npm packages...'
