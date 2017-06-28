@@ -64,11 +64,9 @@ cross-claim or counterclaim.
 
 #import "AppDelegate.h"
 #import <RNPush/RNPush.h>
-
 #import <RNCrashes/RNCrashes.h>
-
 #import <RNAnalytics/RNAnalytics.h>
-
+#import <RNMobileCenter/RNMobileCenter.h>
 
 
 #import "RCTBundleURLProvider.h"
@@ -85,6 +83,8 @@ cross-claim or counterclaim.
   [RNCrashes register];  // Initialize Mobile Center crashes
 
   [RNAnalytics registerWithInitiallyEnabled:true];  // Initialize Mobile Center analytics
+
+  [RNMobileCenter register];  // Initialize Mobile Center 
 
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
 
