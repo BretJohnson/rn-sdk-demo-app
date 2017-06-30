@@ -78,7 +78,7 @@ cross-claim or counterclaim.
 {
   NSURL *jsCodeLocation;
 
-  [RNPush registerAndEnable];  // Initialize Mobile Center push
+  [RNPush register];  // Initialize Mobile Center push
 
   [RNCrashes register];  // Initialize Mobile Center crashes
 

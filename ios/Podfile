@@ -8,7 +8,7 @@ target 'DemoApp' do
   # Pods for DemoApp
   pod 'MobileCenter/Push', '~> 0.10.1'
   pod 'MobileCenter', '~> 0.10.1'
-  pod 'RNMobileCenterShared', '~> 0.6.0'
+  pod 'RNMobileCenterShared', '~> 0.7.0'
 
   
 
