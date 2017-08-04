@@ -72,16 +72,12 @@ cross-claim or counterclaim.
 #import "RCTBundleURLProvider.h"
 #import "RCTRootView.h"
 
-@import MobileCenter;
-
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   NSURL *jsCodeLocation;
 
-  [MSMobileCenter setLogLevel:MSLogLevelVerbose];
-  
   [RNPush register];  // Initialize Mobile Center push
 
   [RNCrashes register];  // Initialize Mobile Center crashes
